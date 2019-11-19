@@ -1,0 +1,20 @@
+<view>
+  <!-- 展示层 -->
+  <view class="video_view--container conts">
+    <image bindtap="bindPlay" src="{{img_src}}" class="cover-image"></image>
+    <view class="control--btn" bindtap="click">
+      <image class="control--btn" src="{{icon_src}}"></image>
+    </view>
+  </view>
+  <!--遮罩层  -->
+  <view class="shade" wx:if="{{shows}}" bindtap="close"></view>
+  <!--弹出视频面板区域  -->
+  <view class="cont" wx:if="{{shows}}" >
+    <video class="video_con"
+      src="{{video_src}}"
+      style="width:100%;"
+      controls
+      autoplay="{{autoplay}}"
+    ></video>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!--components/icon/icon.wxml-->
+<!-- custom icon -->
+<view
+  class="custom-class iconfont icon-{{ name }}"
+  style="{{ color ? 'color: ' + color : '' }}; {{ size ? 'font-size: ' + size : '' }}"
+  bind:tap="onClick"
+>
+  <view wx:if="{{ info !== null }}" class="icon__info">{{ info }}</view>
+</view>

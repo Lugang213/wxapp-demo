@@ -1,0 +1,61 @@
+<view class="view-page">
+  <navbar page-name="导航栏"></navbar>
+  <!-- <view class="v-box">
+    <i-button type="primary" bind:click="onGetToken">获取Token</i-button>
+    <i-button type="success" bind:click="onVerifyToken">验证Token</i-button>
+
+    <i-button type="info" bind:click="onGetLatest">获取最新期刊</i-button>
+    <i-button type="info" bind:click="onGetNextLatest">获取上一期期刊</i-button>
+
+    <i-button type="info" bind:click="onGetFavor">获取点赞情况</i-button>
+    <i-button type="info" bind:click="onGetMyFavorList">获取我喜欢的期刊</i-button>
+    <i-button type="info" bind:click="onGetList">获取期刊详情</i-button>
+
+    <i-button type="success" bind:click="onHotBookList">获取热门书籍</i-button>
+    <i-button type="success" bind:click="onBookDetails">获取书籍详情</i-button>
+    <i-button type="success" bind:click="onSearchBook">搜索图书</i-button>
+
+    <i-button type="success" bind:click="onBookFavorList">获取我喜欢的书籍</i-button>
+    <i-button type="success" bind:click="onBookFavor">获取书籍点赞情况</i-button>
+    <i-button type="success" bind:click="onAddShortComment">新增短评</i-button>
+    <i-button type="success" bind:click="onGetShortComment">获取短评</i-button>
+
+
+    <i-button type="warning" bind:click="onLike">点赞</i-button>
+    <i-button type="error" bind:click="onDisLike">取消点赞</i-button> -->
+
+
+  <!-- 视频遮罩播放 -->
+  <shade-video></shade-video>
+  
+
+  <!-- 步骤条组件 -->
+  <!-- <view class="step_box">
+    <i-steps class="step_item">
+      <i-step status="finish">
+          <view slot="title">
+                已完成
+          </view>
+          <view slot="content">
+              这里是该步骤的描述信息
+          </view>
+      </i-step>
+      <i-step status="process">
+          <view slot="title">
+              进行中
+          </view>
+          <view slot="content">
+              这里是该步骤的描述信息
+          </view>
+      </i-step>
+      <i-step status="">
+          <view slot="title">
+              错误
+          </view>
+          <view slot="content">
+              这里是该步骤的描述信息
+          </view>
+      </i-step>
+    </i-steps>
+  </view> -->
+</view>

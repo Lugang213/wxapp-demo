@@ -1,0 +1,10 @@
+<!-- navbar -->
+<view class="navbar custom-class" style='height:{{navHeight}}px;background-color:{{bgColor}}'>
+  <view wx:if="{{showNav}}" class="navbar-action-wrap navbar-action-group row item-center" style='top:{{navTop}}px'>
+      <icon name="fanhui" color="{{iconColor}}" block="{{true}}" class="navbar-action_item" bind:click="_navBack"></icon>
+      <icon name="index" color="{{iconColor}}" block="{{true}}" class="navbar-action_item last" bind:click="_toIndex"></icon>
+  </view>
+  <view class='navbar-title' style='top:{{navTop}}px'>
+    {{pageName}}
+  </view>
+</view>

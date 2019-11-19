@@ -1,0 +1,147 @@
+.v-box {
+  margin-top: 65px;
+}
+
+.btn {
+  font-size: 30rpx;
+  width: 160rpx;
+  height: 68rpx;
+  margin-top: 200rpx;
+}
+
+/*-----------------------------遮罩层样式-------------------------------------  */
+
+.shade {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* opacity: 0.9; */
+  overflow: hidden;
+}
+
+/*----------------------------面板样式-----------------------------------------  */
+
+.conts {
+  margin-top: 50%;
+}
+
+.video_con {
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.video_view--container {
+  position: relative;
+}
+
+.cover-image {
+  width: 100%;
+}
+
+.control--btn {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.btns--wrap {
+  position: absolute;
+  bottom: 20rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250rpx;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.btns--wrap .btns_common {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 22rpx;
+  width: 92rpx;
+  height: 44rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 20rpx;
+  color: #333;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 44rpx;
+  margin: 0 10rpx;
+}
+
+.btns--wrap .btns--active {
+  background: rgba(255, 57, 56, 0.8);
+  color: #fff;
+}
+
+.btns_wrap--active {
+  background: black;
+}
+
+.video-img--wrap {
+  width: 100%;
+  height: 1205rpx;
+  overflow: hidden;
+}
+
+.video-img--wrap .video-img--ele {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.video-img--wrap .img--wrap {
+  transform: translateX(100%);
+}
+
+.video-img--wrap .img--wrap image {
+  width: 100%;
+  height: 100%;
+}
+
+.video-img--wrap .video--wrap-hidden {
+  transform: translateX(-100%);
+}
+
+.video-img--wrap .img--wrap-show {
+  transform: translateX(0);
+}
+
+.video-img--wrap .video--wrap-show {
+  transform: translateX(0);
+}
+
+.video-img--wrap .img--wrap-hidden {
+  transform: translateX(100%);
+}
+
+.video-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* 步骤条组件 */
+
+.step_box {
+  margin-top: 300rpx;
+}
+
+/* .i-step-ico{
+  color: red;
+  width: 100rpx;
+  height: 100rpx;
+} */
