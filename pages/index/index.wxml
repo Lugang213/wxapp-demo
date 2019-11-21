@@ -1,4 +1,5 @@
 <view class="view-page">
+  <!-- 导航栏组件 -->
   <navbar page-name="导航栏"></navbar>
   <!-- <view class="v-box">
     <i-button type="primary" bind:click="onGetToken">获取Token</i-button>
@@ -22,40 +23,10 @@
 
 
     <i-button type="warning" bind:click="onLike">点赞</i-button>
-    <i-button type="error" bind:click="onDisLike">取消点赞</i-button> -->
-
-
-  <!-- 视频遮罩播放 -->
-  <shade-video></shade-video>
-  
-
-  <!-- 步骤条组件 -->
-  <!-- <view class="step_box">
-    <i-steps class="step_item">
-      <i-step status="finish">
-          <view slot="title">
-                已完成
-          </view>
-          <view slot="content">
-              这里是该步骤的描述信息
-          </view>
-      </i-step>
-      <i-step status="process">
-          <view slot="title">
-              进行中
-          </view>
-          <view slot="content">
-              这里是该步骤的描述信息
-          </view>
-      </i-step>
-      <i-step status="">
-          <view slot="title">
-              错误
-          </view>
-          <view slot="content">
-              这里是该步骤的描述信息
-          </view>
-      </i-step>
-    </i-steps>
+    <i-button type="error" bind:click="onDisLike">取消点赞</i-button>
   </view> -->
+
+  <!-- 视频遮罩播放组件 -->
+  <!-- <shade-video></shade-video> -->
+  
 </view>

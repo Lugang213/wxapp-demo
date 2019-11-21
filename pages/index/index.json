@@ -2,9 +2,7 @@
   "usingComponents": {
     "i-button": "../../dist/button/index",
     "navbar": "/components/navbar/navbar",
-    "i-modal": "../../dist/modal/index",
-    "shade-video": "../../components/shade-video/index",
-    "i-steps": "../../dist/steps/index",
-    "i-step": "../../dist/step/index"
+    "shade-video": "../../components/shade-video/index"
+    
   }
 }

@@ -1,0 +1,69 @@
+<!--components/checkbox/index.wxml-->
+<view class='DingZ'>
+                <view class='DingZTa zuida'>
+                    <view class='DingZTaA'>固定内容</view>
+                    <view class='DingZTaB'>增加内容（可多选）</view>
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>企业片头</view>
+                    <view class='DingZTaB'></view>
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>企业片尾</view>
+                    <view class='DingZTaB'></view>
+                </view>
+                <view class='DingZTb'>
+                    企业简介
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>成立背景</view>
+                    <view class="DingZTaB {{selectIndex[0].sureid?'cur':''}}" data-index="0" bindtap="selectRep">
+                        资质荣誉/专利成果
+                        <image src="{{selectIndex[0].sureid ? hasSelect : noSelect}}"></image>
+                    </view>
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>基础信息</view>
+                    <view class="DingZTaB {{selectIndex[1].sureid?'cur':''}}" data-index="1" bindtap="selectRep">案例展示 
+                    <image src="{{selectIndex[1].sureid ? hasSelect : noSelect}}"></image></view>
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>企业历程</view>
+                    <view class="DingZTaB {{selectIndex[2].sureid?'cur':''}}" data-index="2" bindtap="selectRep">数据分析 
+                    <image src="{{selectIndex[2].sureid ? hasSelect : noSelect}}"></image></view>
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>企业团队</view>
+                    <view class='DingZTaB'></view>
+                </view>
+                <view class='DingZTb'>
+                    产品/服务
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>研发历程</view>
+                    <view class="DingZTaB {{selectIndex[3].sureid?'cur':''}}" data-index="3" bindtap="selectRep">产品领域/体系 
+                    <image src="{{selectIndex[3].sureid ? hasSelect : noSelect}}"></image></view>
+                </view>    
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>产品特性</view>
+                    <view class="DingZTaB {{selectIndex[4].sureid?'cur':''}}" data-index="4" bindtap="selectRep">品牌合作 
+                    <image src="{{selectIndex[4].sureid ? hasSelect : noSelect}}"></image></view>
+                </view>    
+                
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>产品应用</view>
+                    <view class="DingZTaB {{selectIndex[5].sureid?'cur':''}}" data-index="5" bindtap="selectRep">产品营销 
+                    <image src="{{selectIndex[5].sureid ? hasSelect : noSelect}}"></image></view>
+                </view>
+                <view class='DingZTb'>
+                    企业愿景
+                </view>
+                <view class='DingZTa'>
+                    <view class='DingZTaA'>企业使命</view>
+                    <view class='DingZTaB'></view>
+                </view>
+                <view class='DingZTa' style="border-bottom:none">
+                    <view class='DingZTaA'>前景规划</view>
+                    <view class='DingZTaB'></view>
+                </view>
+            </view>
